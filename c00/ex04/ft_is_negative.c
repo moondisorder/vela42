@@ -1,11 +1,13 @@
-#include <stdio.h>
+#include <unistd.h>
 
 void ft_is_negative(int n) {
+  char buf[1];
   if (n < 0) {
-    printf("N");
+    buf[0] = 'N';
   } else {
-    printf("P");
+    buf[0] = 'P';
   }
+  write(STDOUT_FILENO, &buf, 1);
 }
 
 int main(void) {
