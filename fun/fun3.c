@@ -4,7 +4,7 @@ int main (void){
 
 	int a;
 	
-	a = 41;
+	a = 44;
 	switch(a)
 	{
 		case 41:
@@ -17,8 +17,9 @@ int main (void){
 		case 43:
 			printf("Boring string..\n");
 			break;
-		default:
+		case 44:
 			printf("Griffith is gay for Guts.");
 		break;
 	}
 }
+//Very gay for Guts.
