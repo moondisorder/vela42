@@ -57,7 +57,46 @@
 #else: 
 #    print(f"Your tweet is {char_count} is {char_count - max_chars } char tweet is too long ")
 
+################ BMI CALCULATOR #################
+#height = float(input("Enter your height"))
+#weight = float(input("Enter your weight"))
+#category = "none"
+#bmi = ((weight*703) / (height ** 2))
+#bmi = round(bmi,1)
+#if bmi < 16:
+#    category = "severely underweight"
+#    print("You're underweight!")
+#elif bmi <18.4:
+#    category = "underweight"
+#    print("Under weight.")
+#elif bmi<24.9:
+#    category = "normal"
+#    print("Normal!")
+#elif bmi <29.9:
+#    category = "overweight"
+#    print("Overweight")
+#elif bmi < 34:
+#    category = "obese"
+#    print ("Obese")
+#elif bmi < 39:
+#    category = "morbidly obese"
+#    print("Morbidly obese")
 
+#print(f"Your BMI of {bmi} makes you {category}!")
+###################################################
+#num = 3<4 and 3>8
+#if num == True and True:
+#    print(num)
+#else:
+#    print("Thats wrong!")
+################################################
+#word = input("Type a word!:")
+
+#if word[0]=="g" and len(word)>=3:
+#    print("Word starts with G and is greater or less than three!")
+#else:
+#    print("Word invalid!")
+################################################
 
 
 
