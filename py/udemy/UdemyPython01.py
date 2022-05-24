@@ -138,19 +138,64 @@
 #        break
 #    message = input("please say ass")
 #print("Finally! :)")
-from random import randint
-num_dice = int(input("How many dice are we rolling?"))
-num_sides = int(input("How many sides are on each die?"))
+#from random import randint
+#num_dice = int(input("How many dice are we rolling?"))
+#num_sides = int(input("How many sides are on each die?"))
 
-while True:
-    result="|"
-    for die in range(num_dice):
-        rand = randint(1,num_sides)
-        result +=f"{rand}|"
-    print(result)
-    reply = input("Roll again? or type Q to quit:")
-    if reply == "q":
-        break
+#while True:
+#    result="|"
+#    for die in range(num_dice):
+#        rand = randint(1,num_sides)
+#        result +=f"{rand}|"
+#    print(result)
+#    reply = input("Roll again? or type Q to quit:")
+#    if reply == "q":
+#        break
+############# FUNCTIONS #############################
+#def laugh(intensity):
+#    print(f"ha!*{intensity}") 
+
+#laugh(2)
+
+#def divide(num1,num2):
+#    print(num1/num2)
+#divide(13,3)
+
+#def is_even(num):
+#    if num % 2 ==0:
+#        return True
+#    else:
+#        return False 
+
+#def is_even(num):
+#   return num % 2 ==0
+
+#print(is_even(7))
+#############################
+#slugify
+
+#def slugify(phrase):
+#    return phrase.lower().strip().replace(" ","-")
+
+#print(slugify("No I will not eat GREEEN eggs and ham"))
+
+###VOWEL COUNTER 
+#def count_vowels(word):
+#    count  = 0
+#    for char in word:
+#        if char  in "aeiou":
+#            count += 1
+#    return count 
+
+#print(count_vowels("hello"))
+
+##enclosing 
+#def outer():
+#    global animal ##scoped globally
+#    animal = "spider crab"
+#outer()
+
+#print(animal)
 
 
 
