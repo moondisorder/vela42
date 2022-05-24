@@ -97,6 +97,65 @@
 #else:
 #    print("Word invalid!")
 ################################################
+#color = input("Enter a color!")
+#if color:
+#    print(f"{color} is my fave color too!")
+#else:
+#    print("NO.")
+
+## 
+#answer = input("Please say hi. :)")
+#while answer !="hi":
+#    answer=input("RUDE SAY HI.")
+#print("Hi to you too!")
+
+#count = 1;
+#while count <=10:
+    #print(f"Count is {count}.")
+#    print("*"*count )
+#    count+=1
+#print("Count is greater than 10.")
+#word = "asshole"
+#for char in word:
+#    print(char)
+
+#for num in range(-5,10):
+#    print(num)
+
+#for num_bottles in range(99,0,-1): 
+#    #stepping down means -1
+#    print(f"{num_bottles} bottles of beer on the wall.")
+#    print(f"{num_bottles} bottles of beer.")
+#    if num_bottles==1:
+#        print(f"Take one down, pass it around, no more bottles of beer on the wall.")
+#    else:
+#        print(f"Take one down, pass it around, {num_bottles-1} bottles of beer on the wall.")
+#    print("*"*50)
+
+#message = input("Say ass")
+#while True:
+#    if message =="ass":
+#        break
+#    message = input("please say ass")
+#print("Finally! :)")
+from random import randint
+num_dice = int(input("How many dice are we rolling?"))
+num_sides = int(input("How many sides are on each die?"))
+
+while True:
+    result="|"
+    for die in range(num_dice):
+        rand = randint(1,num_sides)
+        result +=f"{rand}|"
+    print(result)
+    reply = input("Roll again? or type Q to quit:")
+    if reply == "q":
+        break
+
+
+
+
+
 
 
 
