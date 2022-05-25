@@ -197,11 +197,14 @@
 
 #print(animal)
 
+#high_scores =["trash","me"]
+#print(high_scores)
 
+#ass = list("asshole")
+#print(ass)
 
-
-
-
+#waitlist=["'Yammy','Tammy','Mammy'"]
+#print(waitlist)
 
 
 
