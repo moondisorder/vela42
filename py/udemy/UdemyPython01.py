@@ -228,12 +228,35 @@
 #print("*~#n_n*".join(full_name)) ## JOINS TOGETHER
 #print(full_name.split(" "))
 
-from struct import unpack
+#from struct import unpack
+
+#things = ["grey","teal","salmon"]
+#monochrome, greyblue, pinkish = things 
+#print(monochrome,greyblue,pinkish)
+
+####DICTIONARIES #############################
+#movie  = {
+#    "title" : "The BEErserk movie",
+#    "year" : 2013,
+#    "imdb" : 60.3,
+#    "runtime": "Too long",
+#    "rating": "R",
+#    "reviews": "Bad"
+#}
 
 
-things = ["grey","teal","salmon"]
-monochrome, greyblue, pinkish = things 
-print(monochrome,greyblue,pinkish)
+##give KEY and VALUE separated by :
+#print(type(movie))
+
+#vela = {'awesomelevel':9000, 'self esteem': 0 }
+#me = {'vela': '28 years old', 'mood' :'alright',
+#'hobby': 'dancing in the dark'}
+#print(me['mood'])
+
+#me['hobby'] = 'dancing in the dark to anime music'
+#print(me)
+
+
 
 
 
