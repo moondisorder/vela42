@@ -228,6 +228,13 @@
 #print("*~#n_n*".join(full_name)) ## JOINS TOGETHER
 #print(full_name.split(" "))
 
+from struct import unpack
+
+
+things = ["grey","teal","salmon"]
+monochrome, greyblue, pinkish = things 
+print(monochrome,greyblue,pinkish)
+
 
 
 
