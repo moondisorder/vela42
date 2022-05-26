@@ -203,9 +203,30 @@
 #ass = list("asshole")
 #print(ass)
 
-#waitlist=["'Yammy','Tammy','Mammy'"]
+#waitlist=[5,34,73]
+#waitlist.append('Andrew')
 #print(waitlist)
+#sp="Superdooper"[3:7]
+#print(sp)
 
+#emails = ['griffith@falconia.com','GUTS@berserker.net']
+#for email in emails: 
+#    print("****Sending email to****")
+#    print(email)
+
+###########LISTS 
+#list = [
+#    ['banana','apple','orange'],
+#    ['cat','dog','giraffe'],
+#    ['griffith','guts','caska']
+#    ]
+#print(list[2][2])
+#list = [2,4,6,8]
+
+### SPLIT & JOING #############################
+#full_name = ["Vela", "Marissa", "Noble"]
+#print("*~#n_n*".join(full_name)) ## JOINS TOGETHER
+#print(full_name.split(" "))
 
 
 
