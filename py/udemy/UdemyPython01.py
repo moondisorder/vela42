@@ -255,10 +255,24 @@
 
 #me['hobby'] = 'dancing in the dark to anime music'
 #print(me)
+#even = {10,14,40}
+#even.add(12) # this is important lol 
+#print(even)
+
+######### ARGS! ########################
+#def count_stuff(*args):
+#    print(f"You passed me {len(args)} arguments.")
+#print(count_stuff(1,2,3,4))
+
+#### KEYWORD ARGS KWARGS ###################** ###############
+## order kinda matters
+#def display_info(person,*args,status='single'):
+#    print(f"Person is {person}")
+#    print(f"Status is {status}")
+#    print(f"Miscellaneous is {args}")
 
 
-
-
+#print(display_info('Vela',3,4,5,status='a unicorn'))
 
 
 
