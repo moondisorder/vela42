@@ -271,8 +271,13 @@
 #    print(f"Status is {status}")
 #    print(f"Miscellaneous is {args}")
 
-
 #print(display_info('Vela',3,4,5,status='a unicorn'))
+
+def add_twice(val,lst=[]):
+    lst.append(val)
+    lst.append(val)
+    return lst 
+print(add_twice('yay','boo'))
 
 
 
