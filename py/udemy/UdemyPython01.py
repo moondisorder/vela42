@@ -273,11 +273,20 @@
 
 #print(display_info('Vela',3,4,5,status='a unicorn'))
 
-def add_twice(val,lst=[]):
-    lst.append(val)
-    lst.append(val)
-    return lst 
-print(add_twice('yay','boo'))
+#import math 
 
+#print(math.cos(1))
+
+#from random import randint 
+#print(randint(1,6))
+
+### pip is the package installer
+#import art
+#print(art.text2art("guts\nis\nnot\ngay"))
+
+from translate import Translator 
+translation  = Translator(to_lang="es")
+translation = translator.translate("Hello")
+print(translation)
 
 
