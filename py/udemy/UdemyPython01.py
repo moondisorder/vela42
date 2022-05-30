@@ -284,9 +284,9 @@
 #import art
 #print(art.text2art("guts\nis\nnot\ngay"))
 
-from translate import Translator 
-translation  = Translator(to_lang="es")
-translation = translator.translate("Hello")
-print(translation)
+#from translate import Translator 
+#translation  = Translator(to_lang="es")
+#translation = translator.translate("Hello")
+#print(translation) 
 
 
