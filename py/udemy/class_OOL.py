@@ -1,11 +1,14 @@
 
 
 class Dog:
+    species = 'canine'
     def __init__(self, name,breed,location):
         self.name = name #can add whatever onto each dog. every dog like this
         self.tricks = []
         self.breed = breed
         self.location = location
+
+    
 
     def bark(self):
         print(f"{self.name} says BARK!")
@@ -24,7 +27,6 @@ class Dog:
 jules = Dog("Jules","Corgi","Fresno")
 jules.learn_trick('sit')
 
-print(jules.tricks)
-print(jules.preform_trick("sit"))
+print(jules.species)
 
 
