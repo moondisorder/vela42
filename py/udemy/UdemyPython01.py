@@ -290,19 +290,23 @@
 #print(translation) 
 
 
-#class Cat:
-#    def __init__(self,name):
-#        self.name = name
+class Cat:
+    def __init__(self,name):
+        self.name = name
 
-#    def meow(self):
-#        print(f"{self.name} meows!!!!")
+    def meow(self):
+        print(f"{self.name} meows!!!!")
 
-#class Cougar(Cat):
-#    def purr(self):
-#        print(f"{self.name} purrs!!!")
+class Cougar(Cat):
+    def __init__(self,name,pride_name):
+        print("INSIDE INIT")
+        super().__init__(name)
 
-#puma = Cougar('Tina')
-#print(puma.purr())
+    def purr(self):
+        print(f"{self.name} purrs!!!")
+
+puma = Cougar('Tina','XYZ')
+print(puma.purr())
 
 
 
